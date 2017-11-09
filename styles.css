@@ -4,12 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html {
     font: normal 16px sans-serif;
 }
-
-
 section {
     background: linear-gradient(rgb(114, 92, 238), rgb(110, 39, 143));
     display: flex;
@@ -17,13 +14,11 @@ section {
     align-items: center;
     height: 100vh;
 }
-
-section div {
-    margin-top: 400px;
+.fade-in-content {
+    margin-top: 350px;
     animation: fade-in 2s forwards;
     opacity: 0;
 }
-
 section div h1 {
     font-family: 'Quicksand',sans-serif;
     color: white;
@@ -41,10 +36,33 @@ section div p {
     color: white;
 }
 
+.footer {
+    margin-top: 25px;
+    text-align: center;
+    animation: fade-in 2s forwards 3s;
+    opacity: 0;
+}
+.footer p {
+    font-size: 18px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+    margin-right: 15px;
+}
+.footer a:hover {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 48px;
+}
+
 @keyframes fade-in {
     100% {
         opacity: 1;
-        margin-top: 200px;
+        margin-top: 150px;
     }
 }
 
@@ -111,10 +129,10 @@ section div p {
         margin-top: 20px;
         font-size: 20px;
     }
-        @keyframes fade-in {
-            100% {
-                opacity: 1;
-                margin-top: 50px;
-            }
+    @keyframes fade-in {
+        100% {
+            opacity: 1;
+            margin-top: 50px;
         }
+    }
 }
