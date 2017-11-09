@@ -9,10 +9,6 @@ html {
     font: normal 16px sans-serif;
 }
 
-body {
-    
-
-}
 
 section {
     background: linear-gradient(rgb(114, 92, 238), rgb(110, 39, 143));
@@ -45,6 +41,10 @@ section div p {
 }
 
 @media screen and (max-width: 1310px){
+    section div {
+        margin-top: 150px;
+    }
+
     section div h1 {
         font-size: 100px;
     }
@@ -55,6 +55,9 @@ section div p {
 }
 
 @media screen and (max-width: 960px) {
+    section div {
+        margin-top: 100px;
+    }
     section div h1 {
         font-size: 80px;
     }
@@ -65,6 +68,9 @@ section div p {
 }
 
 @media screen and (max-width: 790px) {
+    section div {
+        margin-top: 100px;
+    }
     section div h1 {
         font-size: 70px;
     }
@@ -74,6 +80,10 @@ section div p {
 }
 
 @media screen and (max-width: 670px) {
+    section div {
+        margin-top: 50px;
+    }
+
     section div h1 {
         font-size: 50px;
     }
