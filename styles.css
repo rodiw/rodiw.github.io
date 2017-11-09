@@ -1,0 +1,56 @@
+/* General styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px sans-serif;
+}
+
+body {
+    
+
+}
+
+section {
+    background: linear-gradient(rgb(114, 92, 238), rgb(110, 39, 143));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+section div {
+    margin-top: 200px;
+
+}
+
+section div h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    font-size: 130px;
+    -webkit-transition: 0.6s linear;
+    -moz-transition: 0.6s linear;
+    transition: 0.6s linear;
+
+}
+
+@media screen and (max-width: 1080px){
+    section div h1 {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    section div h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    section div h1 {
+        font-size: 60px;
+    }
+}
