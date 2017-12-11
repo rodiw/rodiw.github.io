@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Gloria+Hallelujah');
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 80px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.topFix {
+  /*padding-left: 10%;
+  padding-right: 10%;*/
+  margin-top: 50px;
+}
+
+.bottomFix {
+  margin-bottom: 50px;
+}
+
+
+.ownBtn {
+  padding: 0px 17px 7px 17px;
+  background-color:rgb(255, 0, 0, 0.0);
+  border: 3px solid #333;
+  font-size: 26px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #333;
+  -webkit-transition: 1.5s; /* Safari */
+  transition: 1.5s;
+  border-radius: 5px;
+}
+
+.ownBtn:hover {
+  text-decoration: none;
+  color: #75f9a5;
+  border: 3px solid #75f9a5;
+}
+
+.results {
+  color: #333;
+  -webkit-transition: 0.5s; /* Safari */
+  transition: 0.5s;
+}
+.results:hover {
+  color: #FFB733;
+  text-decoration: none;
+}
+
+.formHolder {
+  width: 80%;
+}
+
+.orange {
+  color: #FFB733;
+}
+

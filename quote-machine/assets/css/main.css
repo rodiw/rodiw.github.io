@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  color:#555555;
+}
+
+#shareQuote {
+  color:steelblue;
+}
+#shareQuote:hover {
+  color:rgb(83, 156, 216);
+  transition: 0.2s linear;
+}
+
+#changeQuote i {
+  color: #00A161;
+  transition: 0.2s linear;
+}
+#changeQuote:hover i {
+  color: rgb(0, 199, 119);
+}
+
+.vertPadding {
+  margin-top: 100px;
+}
+
+.shrinkIt {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.pushIt {
+  padding-right: 20%;
+}
+.icon-adj {
+  display: flex;
+  justify-content: center;
+}
+.icon-adj div {
+  padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+  .shrinkIt {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .pushIt {
+    padding-right: 5%;
+  }
+}
+
+.footer {
+  font-size: 24px;
+}
+
+a {
+  color: #555;
+  transition: 0.2s linear;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(146, 145, 145);
+}
