@@ -5,6 +5,7 @@ $(document).ready(function () {
 
   function getNewQuote() {
     $.ajax ({
+      type: 'GET',
       url: 'http://api.forismatic.com/api/1.0/',
       jsonp: 'jsonp',
       dataType: 'jsonp',
