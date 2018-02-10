@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: linear-gradient(#F2AA62, #9A3DDE);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100vh; }
+
+.container {
+  display: flex;
+  flex-direction: column; }
+
+header .nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  header .nav-bar .logo-holder {
+    width: 35em;
+    padding: 1em 2em; }
+  header .nav-bar nav {
+    display: flex;
+    flex-direction: row; }
+    header .nav-bar nav li {
+      list-style: none;
+      padding: 1em 2em; }
+      header .nav-bar nav li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #333333;
+        font-size: 3rem;
+        font-family: "Myanmar MN", sans-serif; }
+header .content-holder {
+  display: flex;
+  flex-direction: column; }
+  header .content-holder .logo-holder {
+    margin: auto;
+    margin-top: 5em;
+    width: 30em; }
+  header .content-holder .content-text-holder {
+    text-align: center;
+    margin-top: 2em; }
+    header .content-holder .content-text-holder h1 {
+      font-size: 6rem;
+      text-transform: uppercase;
+      font-family: "Ubuntu"; }
+    header .content-holder .content-text-holder p {
+      font-size: 3rem;
+      font-family: "Quicksand"; }
+  header .content-holder .content-button {
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 0.15em solid #ffffff;
+    border-radius: 0.7em;
+    width: 14em;
+    height: 3.5em;
+    background: transparent;
+    color: #ffffff;
+    opacity: 0.75;
+    text-transform: uppercase;
+    font-size: 2.4rem; }
+    header .content-holder .content-button:hover {
+      opacity: 1; }
+
+@media (max-width: 860px) {
+  header .nav-bar {
+    flex-direction: column;
+    align-items: center; }
+    header .nav-bar nav li {
+      padding: 0 1em; }
+  header .content-holder {
+    padding: 0 1em; } }
+@media (max-width: 620px) {
+  header .nav-bar nav li a {
+    font-size: 2.4rem; }
+  header .content-holder {
+    padding: 0 1em; }
+    header .content-holder .content-text-holder h1 {
+      font-size: 4rem;
+      margin-bottom: 0.5em; }
+    header .content-holder .content-text-holder p {
+      font-size: 2.2rem; }
+    header .content-holder .content-button {
+      opacity: 1;
+      font-size: 1.8rem; } }
+
+/*# sourceMappingURL=styles.css.map */

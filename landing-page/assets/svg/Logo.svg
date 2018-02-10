@@ -1,0 +1,29 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="40 21 300.556 39.561">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #333;
+      }
+
+      .cls-1 {
+        font-size: 32px;
+        font-family: Menlo-Regular, Menlo;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #333;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        font-size: 27px;
+        font-family: MyanmarMN, Myanmar MN;
+        letter-spacing: 0.1em;
+      }
+    </style>
+  </defs>
+  <text id="L" class="cls-1" transform="translate(50.175 51)"><tspan x="0" y="0">L</tspan></text>
+  <line id="Line_1" data-name="Line 1" class="cls-2" x2="40" transform="translate(40 59.061)"/>
+  <text id="LANDING_PAGE" data-name="LANDING PAGE" class="cls-3" transform="translate(106.556 47)"><tspan x="0" y="0">LANDING PAGE</tspan></text>
+</svg>

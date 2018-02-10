@@ -1,0 +1,146 @@
+$purple: #9A3DDE;
+$orange: #F2AA62;
+$black: #333333;
+$white: #ffffff;
+
+$font-quicksand: 'Quicksand';
+$font-ubuntu: 'Ubuntu';
+
+$tablet-screen: 860px;
+$small-screen: 620px;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%
+}
+
+body {
+	background: linear-gradient($orange, $purple);
+	background-repeat: no-repeat;
+	color: $white;
+	height: 100vh;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	.nav-bar{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		.logo-holder {
+			width: 35em;
+			padding: 1em 2em;
+		}
+		nav {
+			display: flex;
+			flex-direction: row;
+			li {
+				list-style: none;
+				padding: 1em 2em;
+				a {
+					text-decoration: none;
+					text-transform: uppercase;
+					color: $black;
+					font-size: 3rem;
+					font-family: 'Myanmar MN', sans-serif
+				}
+			}
+		}
+	}
+
+	.content-holder {
+		display: flex;
+		flex-direction: column;
+		.logo-holder {
+			margin: auto;
+			margin-top: 5em;
+			width: 30em;
+		}
+		.content-text-holder {
+			text-align: center;
+			margin-top: 2em;
+			h1 {
+				font-size: 6rem;
+				text-transform: uppercase;
+				font-family: $font-ubuntu;
+			}
+			p {
+				font-size: 3rem;
+				font-family: $font-quicksand;
+			}
+		}
+		.content-button {
+			margin: 0 auto;
+			margin-top: 2em;
+			border: 0.15em solid $white;
+			border-radius: 0.7em;
+			width: 14em;
+			height: 3.5em;
+			background: transparent;
+			color: $white;
+			opacity: 0.75;
+			text-transform: uppercase;
+			font-size: 2.4rem;
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+@media (max-width: $tablet-screen) {
+	header {
+		.nav-bar {
+			flex-direction: column;
+			align-items: center;
+			nav {
+				li {
+					padding: 0 1em;
+				}
+			}
+		}
+		.content-holder {
+			padding: 0 1em;
+		}
+	}
+}
+
+@media (max-width: $small-screen) {
+	header {
+		.nav-bar {
+			nav {
+				li {
+					a {
+						font-size: 2.4rem;
+					}
+				}
+			}
+		}
+		.content-holder {
+			padding: 0 1em;
+			.content-text-holder {
+				h1 {
+					font-size: 4rem;
+					margin-bottom: 0.5em;
+				}
+				p {
+					font-size: 2.2rem;
+				}
+			}
+			.content-button {
+				opacity: 1;
+				font-size: 1.8rem;
+			}
+		}
+	}
+}
+
+
