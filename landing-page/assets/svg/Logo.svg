@@ -7,7 +7,7 @@
 
       .cls-1 {
         font-size: 32px;
-        font-family: Menlo-Regular, Menlo;
+        font-family: 'Concert One';
       }
 
       .cls-2 {
@@ -18,7 +18,7 @@
 
       .cls-3 {
         font-size: 27px;
-        font-family: MyanmarMN, Myanmar MN;
+        font-family: 'Rufina', serif;
         letter-spacing: 0.1em;
       }
     </style>
@@ -27,3 +27,5 @@
   <line id="Line_1" data-name="Line 1" class="cls-2" x2="40" transform="translate(40 59.061)"/>
   <text id="LANDING_PAGE" data-name="LANDING PAGE" class="cls-3" transform="translate(106.556 47)"><tspan x="0" y="0">LANDING PAGE</tspan></text>
 </svg>
+
+

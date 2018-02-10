@@ -34,7 +34,7 @@ header .nav-bar {
         text-transform: uppercase;
         color: #333333;
         font-size: 3rem;
-        font-family: "Myanmar MN", sans-serif; }
+        font-family: 'Rufina', serif; }
 header .content-holder {
   display: flex;
   flex-direction: column; }
