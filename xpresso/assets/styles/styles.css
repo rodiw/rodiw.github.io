@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #333; }
+
+p {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 3em;
+  color: #fff; }
+
+.handlee {
+  font-family: "Handlee"; }
+
+.patrick {
+  font-family: "Patrick Hand"; }
+
+.merienda {
+  font-family: "Merienda"; }
+
+.coming {
+  font-family: "Coming Soon"; }
+
+.itim {
+  font-family: "Itim"; }
+
+.short {
+  font-family: "Short Stack"; }
+
+.pangolin {
+  font-family: "Pangolin"; }
+
+.delius {
+  font-family: "Delius Swash Caps"; }
+
+.dekko {
+  font-family: "Dekko"; }
+
+/*# sourceMappingURL=styles.css.map */

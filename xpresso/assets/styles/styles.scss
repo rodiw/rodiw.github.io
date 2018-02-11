@@ -1,0 +1,64 @@
+$handlee: 'Handlee';
+$patrickHand: 'Patrick Hand';
+$merienda: 'Merienda';
+$comingSoon: 'Coming Soon';
+$itim: 'Itim';
+$shortStack: 'Short Stack';
+$pangolin: 'Pangolin';
+$deliusSwashCaps: 'Delius Swash Caps';
+$dekko: 'Dekko';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: #333;
+}
+p {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 3em;
+	color: #fff;
+}
+
+.handlee {
+	font-family: $handlee
+}
+
+.patrick {
+	font-family: $patrickHand;
+}
+
+.merienda {
+	font-family: $merienda;
+}
+
+.coming {
+	font-family: $comingSoon;
+}
+
+.itim {
+	font-family: $itim;
+}
+
+.short {
+	font-family: $shortStack;
+}
+
+.pangolin {
+	font-family: $pangolin;
+}
+
+.delius {
+	font-family: $deliusSwashCaps;
+}
+
+.dekko {
+	font-family: $dekko;
+}
