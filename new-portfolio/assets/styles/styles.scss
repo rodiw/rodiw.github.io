@@ -1,0 +1,63 @@
+// Variables
+$black: #333;
+$white: #fff;
+
+// Basic html rules
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+	color: $black;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+//Main
+.main-container {
+	display: flex;
+	flex-direction: column;
+}
+
+//Greeting
+
+//About
+
+//Projects
+
+//Contact
+
+//Footer
+footer {
+	background-color: $black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 2rem;
+	div {
+		display: flex;
+		li {
+			padding: 0.5em 1.5em;
+			color: $white;
+		}
+	}
+	p {
+		padding: 0.5em 3em;
+		color: $white;
+	}
+}
+
+@media (min-width: 640px) {
+	footer {
+		flex-direction: row;
+		justify-content: space-between
+	}
+}
