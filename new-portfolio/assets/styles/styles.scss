@@ -1,6 +1,9 @@
 // Variables
 $black: #333;
 $white: #fff;
+$bg-prim: #33ccff;
+$bg-sec: #ff99cc;
+$bg-color: linear-gradient(to bottom right, $bg-prim 0%, $bg-sec 100%);
 
 // Basic html rules
 * {
@@ -25,6 +28,7 @@ a {
 .main-container {
 	display: flex;
 	flex-direction: column;
+	background: $bg-color;
 }
 
 //Greeting

@@ -6,11 +6,16 @@ html {
   font-size: 62.5%;
   color: #333; }
 
-li {
+ul {
   list-style: none; }
 
 a {
   text-decoration: none; }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%); }
 
 footer {
   background-color: #333;
