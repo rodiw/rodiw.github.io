@@ -35,7 +35,7 @@ a:hover {
 }
 
 //Main
-.b-main-container {
+.b-holder-main {
 	display: flex;
 	flex-direction: column;
 	background: $bg-color;
@@ -57,19 +57,43 @@ nav {
 
 .b-holder-navlinks {
 	display: flex;
-}
-.b-holder-navlinks li {
-	margin: 2em 3em;
+	li {
+		margin: 2em 3em;
+		a {
+			font-size: 2rem;
+			color: $black;
+			font-weight: 500;
+		}
+	}
 }
 
-.b-holder-navlinks li a {
-	font-size: 2rem;
-	color: $black;
-	font-weight: 500;
+.e-text-category {
+	text-align: center;
+	font-size: 2.8rem;
+	text-transform: uppercase;
+}
+
+.e-text-category-sub {
+	text-align: center;
+	font-size: 1.8rem;
 }
 
 //Greeting
-
+.b-holder-greetings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.e-text-greet {
+		font-weight: 400;
+		font-size: 4rem;
+	}
+	.e-text-greet-sub {
+		font-size: 2rem;
+		font-weight: 400;
+		width: 50%;
+		text-align: center;
+	}
+}
 //About
 
 //Projects
