@@ -113,15 +113,35 @@ nav {
 		text-align: justify;
 		width: 70%;
 	}
-	transition: 10s linear;
 }
-// .b-holder-about:hover {
-// 	transform: scale(1.1);
-// }
+
 //Projects
-
+.b-holder-projects {
+	padding: 20em 0;
+}
 //Contact
+.b-holder-contact {
+	padding: 20em 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.b-holder-form {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.e-input-contact {
+	border: none;
+	padding: 1em 0.4em;
+	background-color: transparent;
+	border-bottom: $black solid 0.2em;
+}
+.e-input-contact:focus {
+	outline: none;
+}
 //Footer
 footer {
 	background-color: $black;
