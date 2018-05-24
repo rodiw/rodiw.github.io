@@ -6,6 +6,7 @@
 html {
   font-size: 62.5%;
   font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
   color: #333; }
 
 ul {
@@ -43,17 +44,9 @@ nav {
       color: #333;
       font-weight: 500; }
 
-.e-text-category {
-  text-align: center;
-  font-size: 2.8rem;
-  text-transform: uppercase; }
-
-.e-text-category-sub {
-  text-align: center;
-  font-size: 1.8rem; }
-
 .b-holder-greetings {
   display: flex;
+  padding: 10em 0;
   flex-direction: column;
   align-items: center; }
   .b-holder-greetings .e-text-greet {
@@ -64,6 +57,30 @@ nav {
     font-weight: 400;
     width: 50%;
     text-align: center; }
+
+.e-text-category {
+  text-align: center;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.e-text-category-sub {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400; }
+
+.b-holder-about {
+  background-color: #fff;
+  padding: 10em 0;
+  transform: skew(0deg, -10deg);
+  transition: 10s linear; }
+  .b-holder-about .m-title-category {
+    transform: skew(0deg, 10deg); }
+  .b-holder-about .m-subtext-category {
+    transform: skew(0deg, 10deg);
+    margin: 0 auto;
+    text-align: justify;
+    width: 70%; }
 
 footer {
   background-color: #333;

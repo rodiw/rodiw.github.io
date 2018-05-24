@@ -17,6 +17,7 @@ $bg-color: linear-gradient(to bottom right, $bg-prim 0%, $bg-sec 100%);
 html {
 	font-size: 62.5%;
 	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
 	color: $black;
 }
 
@@ -67,20 +68,10 @@ nav {
 	}
 }
 
-.e-text-category {
-	text-align: center;
-	font-size: 2.8rem;
-	text-transform: uppercase;
-}
-
-.e-text-category-sub {
-	text-align: center;
-	font-size: 1.8rem;
-}
-
 //Greeting
 .b-holder-greetings {
 	display: flex;
+	padding: 10em 0;
 	flex-direction: column;
 	align-items: center;
 	.e-text-greet {
@@ -94,8 +85,39 @@ nav {
 		text-align: center;
 	}
 }
+
+.e-text-category {
+	text-align: center;
+	font-size: 2.8rem;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.e-text-category-sub {
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 400;
+}
 //About
 
+.b-holder-about {
+	background-color: $white;
+	padding: 10em 0;
+	transform: skew(0deg, -10deg);
+	.m-title-category {
+		transform: skew(0deg, 10deg);
+	}
+	.m-subtext-category {
+		transform: skew(0deg, 10deg);
+		margin: 0 auto;
+		text-align: justify;
+		width: 70%;
+	}
+	transition: 10s linear;
+}
+// .b-holder-about:hover {
+// 	transform: scale(1.1);
+// }
 //Projects
 
 //Contact
