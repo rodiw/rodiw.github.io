@@ -55,6 +55,7 @@ nav {
 
 .b-holder-logo {
 	margin: 1em 2em;
+	opacity: 0.75;
 }
 
 .b-holder-navlinks {
@@ -63,7 +64,7 @@ nav {
 		margin: 2em 3em;
 		a {
 			font-size: 2rem;
-			color: $black;
+			color: $white;
 			font-weight: 500;
 		}
 	}
@@ -143,23 +144,33 @@ nav {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	.b-holder-form {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+		.e-input-contact {
+			border: none;
+			padding: 1em 0.4em;
+			background-color: transparent;
+			border-bottom: $black solid 0.2em;
+		}
+
+		.e-input-contact:focus {
+			outline: none;
+		}
+
+		.e-text-label {
+			color: $white;
+			font-size: 1.6rem;
+			transform: scale(2);
+		}
+	}
 }
 
-.b-holder-form {
-	display: flex;
-	flex-direction: column;
-	width: 40%;
-}
 
-.e-input-contact {
-	border: none;
-	padding: 1em 0.4em;
-	background-color: transparent;
-	border-bottom: $black solid 0.2em;
-}
-.e-input-contact:focus {
-	outline: none;
-}
+
+
+
 //Footer
 footer {
 	//background-color: $black;
@@ -167,11 +178,14 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	font-size: 2rem;
-	div {
+	ul {
 		display: flex;
+		flex-direction: row;
 		li {
-			padding: 0.5em 1.5em;
-			color: $white;
+			padding: 1em 1.5em;
+			a {
+				color: $white;
+			}
 		}
 	}
 	p {

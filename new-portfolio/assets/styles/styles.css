@@ -33,7 +33,8 @@ nav {
   justify-content: space-between; }
 
 .b-holder-logo {
-  margin: 1em 2em; }
+  margin: 1em 2em;
+  opacity: 0.75; }
 
 .b-holder-navlinks {
   display: flex; }
@@ -41,7 +42,7 @@ nav {
     margin: 2em 3em; }
     .b-holder-navlinks li a {
       font-size: 2rem;
-      color: #333;
+      color: #fff;
       font-weight: 500; }
 
 .b-holder-greetings {
@@ -102,31 +103,34 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center; }
-
-.b-holder-form {
-  display: flex;
-  flex-direction: column;
-  width: 40%; }
-
-.e-input-contact {
-  border: none;
-  padding: 1em 0.4em;
-  background-color: transparent;
-  border-bottom: #333 solid 0.2em; }
-
-.e-input-contact:focus {
-  outline: none; }
+  .b-holder-contact .b-holder-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%; }
+    .b-holder-contact .b-holder-form .e-input-contact {
+      border: none;
+      padding: 1em 0.4em;
+      background-color: transparent;
+      border-bottom: #333 solid 0.2em; }
+    .b-holder-contact .b-holder-form .e-input-contact:focus {
+      outline: none; }
+    .b-holder-contact .b-holder-form .e-text-label {
+      color: #fff;
+      font-size: 1.6rem;
+      transform: scale(2); }
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 2rem; }
-  footer div {
-    display: flex; }
-    footer div li {
-      padding: 0.5em 1.5em;
-      color: #fff; }
+  footer ul {
+    display: flex;
+    flex-direction: row; }
+    footer ul li {
+      padding: 1em 1.5em; }
+      footer ul li a {
+        color: #fff; }
   footer p {
     padding: 0.5em 3em;
     color: #fff; }
