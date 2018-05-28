@@ -72,17 +72,30 @@ nav {
 .b-holder-about {
   background-color: #fff;
   padding: 10em 0;
-  transform: skew(0deg, -10deg); }
+  transform: skew(0deg, -5deg); }
   .b-holder-about .m-title-category {
-    transform: skew(0deg, 10deg); }
+    transform: skew(0deg, 5deg); }
   .b-holder-about .m-subtext-category {
-    transform: skew(0deg, 10deg);
+    transform: skew(0deg, 5deg);
     margin: 0 auto;
     text-align: justify;
     width: 70%; }
 
-.b-holder-projects {
+.b-holder-project {
   padding: 20em 0; }
+
+.b-holder-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.b-container-project {
+  background-color: #fff;
+  width: 30em;
+  height: 20em;
+  margin: 2em 5em;
+  border-radius: 0.5em;
+  box-shadow: 0 0.2em 4em rgba(51, 51, 51, 0.466); }
 
 .b-holder-contact {
   padding: 20em 0;
@@ -105,7 +118,6 @@ nav {
   outline: none; }
 
 footer {
-  background-color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
