@@ -15,6 +15,9 @@ span {
 .fcc_hamburger {
   background-color: tomato !important; }
 
+.line-break {
+  display: block; }
+
 #main {
   display: flex;
   flex-direction: column;
@@ -35,7 +38,8 @@ span {
   max-width: 20%;
   height: auto;
   border-radius: 50%;
-  overflow: hidden; }
+  overflow: hidden;
+  opacity: 0.8; }
 
 #img-caption {
   font-weight: 300;
@@ -43,21 +47,18 @@ span {
 
 #tribute-info {
   width: 60%;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  text-align: justify; }
   #tribute-info h3 {
-    font-weight: 400; }
+    font-weight: 400;
+    margin-bottom: 2em; }
   #tribute-info a {
     text-decoration: none;
     color: tomato;
-    opacity: 0.5;
-    transition: 0.3s linear; }
+    opacity: 0.55;
+    transition: 0.3s linear;
+    font-size: 1.6rem; }
   #tribute-info a:hover {
-    opacity: 0.75; }
-
-.overlay {
-  background: rgba(255, 99, 71, 0.5);
-  overflow: hidden;
-  height: 100%;
-  z-index: 2000; }
+    opacity: 0.85; }
 
 /*# sourceMappingURL=styles.css.map */
