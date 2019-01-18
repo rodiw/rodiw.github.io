@@ -10,70 +10,78 @@
 </head>
 
 <body>
-	<h1 id="title">WHO ARE YOU?!?</h1>
-	<p id="description">Tell us who you are with this survey.</p>
-	<form id="survey-form">
-		<label id="name-label">Full name</label>
-		<input type="text" id="name" placeholder="Enter your full name" required>
-		<label id="email-label">Email</label>
-		<input type="email" id="email" placeholder="Enter your email" pattern=".+@.com" required>
-		<label id="number-label">Age</label>
-		<input type="number" id="number" min="18" max="100" placeholder="Enter your current age">
+	<div class="container">
+		<h1 id="title">WHO ARE YOU?!?</h1>
+		<p id="description">Tell us who you are with this survey.</p>
+		<form id="survey-form">
+			<label id="name-label">Full name</label>
+			<input type="text" id="name" placeholder="Enter your full name" required>
+			<label id="email-label">Email</label>
+			<input type="email" id="email" placeholder="Enter your email" pattern=".+@.com" required>
+			<label id="number-label">Age</label>
+			<input type="number" id="number" min="18" max="100" placeholder="Enter your current age">
 
-		<div class="select">
-			<select name="" id="dropdown">
-				<option disabled value selected>Select an Gender</option>
-				<option value="">Male</option>
-				<option value="">Female</option>
-				<option value="">Other</option>
-			</select>
-		</div>
-		
-		<ul>
-			<li>
-				<input id="work" name="radio" value="1" type="radio">
-				<label for="work">Work</label>
-			</li>
-			<li>
-				<input id="studies" name="radio" value="2" type="radio">
-				<label for="studies">Studies</label>
-			</li>
-			<li>
-				<input id="other" name="radio" value="3" type="radio">
-				<label for="other">Other</label>
-			</li>
-		</ul>
+			<h3>Gender</h3>
+			<div class="select">
+				<select name="" id="dropdown">
+					<option disabled value selected>Select an Gender</option>
+					<option value="M">Male</option>
+					<option value="F">Female</option>
+					<option value="O">Other</option>
+				</select>
+			</div>
 
-		<ul>
-			<li>
-				<input id="0" type="checkbox" value="0">
-				<label for="0">0</label>
-			</li>
-			<li>
-				<input id="1" type="checkbox" value="1">
-				<label for="1">1</label>
-			</li>
-			<li>
-				<input id="2" type="checkbox" value="2">
-				<label for="2">2</label>
-			</li>
-			<li>
-				<input id="3" type="checkbox" value="3">
-				<label for="3">3</label>
-			</li>
-			<li>
-				<input id="4" type="checkbox" value="4">
-				<label for="4">4</label>
-			</li>
-			<li>
-				<input id="5" type="checkbox" value="5">
-				<label for="5">5</label>
-			</li>
-		</ul>
+			<h3>Current occupation</h3>
+			<ul>
+				<li>
+					<input id="work" name="radio" value="1" type="radio">
+					<label for="work">Work</label>
+				</li>
+				<li>
+					<input id="studies" name="radio" value="2" type="radio">
+					<label for="studies">Studies</label>
+				</li>
+				<li>
+					<input id="other" name="radio" value="3" type="radio">
+					<label for="other">Other</label>
+				</li>
+			</ul>
 
-		<textarea name="comment-name" id="comment" cols="30" rows="10"></textarea>
-		<button type="submit" id="submit">Send</button>
-	</form>
+			<h3>Programming languages I know</h3>
+			<ul class="checkbox-ul">
+				<li>
+					<input id="js" type="checkbox" value="js">
+					<label for="js">JavaScript</label>
+				</li>
+				<li>
+					<input id="py" type="checkbox" value="py">
+					<label for="py">Python</label>
+				</li>
+				<li>
+					<input id="cSharp" type="checkbox" value="cSharp">
+					<label for="cSharp">C#</label>
+				</li>
+				<li>
+					<input id="cPlus" type="checkbox" value="cPlus">
+					<label for="cPlus">C++</label>
+				</li>
+				<li>
+					<input id="java" type="checkbox" value="java">
+					<label for="java">Java</label>
+				</li>
+				<li>
+					<input id="c" type="checkbox" value="c">
+					<label for="c">C</label>
+				</li>
+			</ul>
+
+			<textarea name="comment-name" id="comment" cols="30" rows="10"></textarea>
+			<button type="submit" id="submit">Send</button>
+		</form>
+	</div>
+
+
+
 	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 

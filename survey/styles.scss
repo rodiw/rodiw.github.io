@@ -1,59 +1,49 @@
-$inputs-background-color: rgb(240, 129, 110);
-$select-input-button-color: rgba(255, 255, 255, 0.5);
-$select-text-color: #fff;
-$font-color: rgb(111, 111, 111);
-$body-color: #fff;
-body {
-	background-color: $body-color;
-}
-select {
-	appearance: none;
-	outline: 0;
-	box-shadow: none;
-	border: 0 !important;
-	background: $inputs-background-color;
-	background-image: none;
-}
+$inputs-background-color: #1ea896;
+$font-color: #4c5454;
+$action-font-color: #ffffff;
+$action-background-color: #ff715b;
+$body-bg-color: #523f38;
+$container-bg-color: #ffffff;
 
-.select {
-	position: relative;
-	width: 20em;
-	height: 3em;
-	line-height: 3;
-	background: $inputs-background-color;
-	overflow: hidden;
-	border-radius: 0.25em;
-}
-
-select {
-	width: 100%;
-	height: 100%;
+* {
+	padding: 0;
 	margin: 0;
-	padding: 0 0 0 0.5em;
-	color: $select-text-color;
-	cursor: pointer;
+	box-sizing: border-box;
 }
 
-.select::after {
-	content: '\25BC';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	padding: 0 1em;
-	color: $select-input-button-color;
-	background: $inputs-background-color;
-	pointer-events: none;
+
+body {
+	background-color: $body-bg-color;
 }
 
-.select:hover::after {
-	color: $select-text-color;
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: $container-bg-color;
+	margin-top: 5em;
+	padding: 2em;
+	border-radius: 1em;
 }
 
-.select::after {
-	-webkit-transition: .25s all ease;
-	-o-transition: .25s all ease;
-	transition: .25s all ease;
+ul {
+	list-style: none;
+	display: flex;
+}
+
+.checkbox-ul {
+	flex-direction: column;
+}
+
+li {
+	margin: 0.5em;
+}
+
+#submit {
+	background-color: $action-background-color;
+	padding: 1em 2em;
+	border: none;
+	border-radius: 0.4em;
+	color: $action-font-color;
 }
 
 [type="radio"]:checked,
@@ -61,8 +51,9 @@ select {
 	position: absolute;
 	left: -9999px;
 }
-[type="radio"]:checked + label,
-[type="radio"]:not(:checked) + label {
+
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
 	position: relative;
 	padding-left: 28px;
 	cursor: pointer;
@@ -70,6 +61,7 @@ select {
 	display: inline-block;
 	color: $font-color;
 }
+
 [type="radio"]:checked+label:before,
 [type="radio"]:not(:checked)+label:before {
 	content: '';
@@ -80,7 +72,7 @@ select {
 	height: 18px;
 	border: 1px solid $font-color;
 	border-radius: 100%;
-	background: $body-color;
+	background: $container-bg-color;
 }
 
 [type="radio"]:checked+label:after,
@@ -101,6 +93,7 @@ select {
 	opacity: 0;
 	transform: scale(0);
 }
+
 [type="radio"]:checked+label:after {
 	opacity: 1;
 	transform: scale(1);
@@ -133,7 +126,7 @@ select {
 	height: 18px;
 	border: 1px solid $font-color;
 	border-radius: 20%;
-	background: $body-color;
+	background: $container-bg-color;
 }
 
 [type="checkbox"]:checked+label:after,
