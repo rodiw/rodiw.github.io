@@ -15,28 +15,27 @@
 		<h1 id="title">WHO ARE YOU?!?</h1>
 		<p id="description">Tell us who you are with this survey.</p>
 		<form id="survey-form">
-			<div class="survey-input--container">
-				<div class="float">
-					<input class="float-input" type="text" id="name" placeholder="Enter your full name" required>
-					<label class="float-label" id="name-label">Full name</label>
-				</div>
-
-				<div class="float">
-					<input class="float-input" type="email" id="email" placeholder="Enter your email" pattern=".+@.com" required>
-					<label class="float-label" id="email-label">Email</label>
-				</div>
-
-				<div class="float">
-					<input class="float-input" type="number" id="number" min="18" max="100" placeholder="Enter your current age">
-					<label class="float-label" id="number-label">Age</label>
-				</div>
+			<div class="float">
+				<input class="float-input" type="text" id="name" placeholder="Enter your full name" required>
+				<label class="float-label" id="name-label">Full name</label>
 			</div>
 
-			<h3>Gender</h3>
-			<div class="select">
-				<select name="" id="dropdown">
-					<option disabled value selected>Select an Gender</option>
-					<option value="M">Male</option>
+			<div class="float">
+				<input class="float-input" type="email" id="email" placeholder="Enter your email" pattern=".+@.com" required>
+				<label class="float-label" id="email-label">Email</label>
+			</div>
+
+			<div class="float">
+				<input class="float-input" type="number" id="number" min="18" max="100" placeholder="Enter your current age">
+				<label class="float-label" id="number-label">Age</label>
+			</div>
+		
+
+	<h3>Gender</h3>
+	<div class="select">
+		<select name="" id="dropdown">
+			<option disabled value selected>Select an Gender</option>
+			<option value="M">Male</option>
 					<option value="F">Female</option>
 					<option value="O">Other</option>
 				</select>
@@ -88,10 +87,13 @@
 
 			<div class="float">
 
-				<textarea class="float-textarea" name="comment-name" id="comment" cols="30" rows="5"></textarea>
+				<textarea class="float-textarea e-textarea-comment" name="comment-name" id="comment" cols="30" rows="5"></textarea>
 				<label for="comment" class="float-label">Tell us something</label>
 			</div>
-			<button type="submit" id="submit">Send</button>
+			<div class="b-btn-container">
+				<button type="submit" id="submit">Send</button>
+			</div>
+			
 		</form>
 	</div>
 
