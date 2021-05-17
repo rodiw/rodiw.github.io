@@ -4,12 +4,14 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 html {
 	font-size: 62.5%;
-	font-family: 'Quicksand',sans-serif;
-	color: #1D1419;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(67, 40, 93, 1);
 }
-body { background-color: #F5EDE9; }
+
+body {}
 
 .article-about-me {
 	margin: 2em 0;
@@ -22,14 +24,21 @@ body { background-color: #F5EDE9; }
 .article-about-me__image {
 	width: 40em;
 	height: 40em;
-	border: #683A3F solid 1px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	overflow:hidden;
+	-webkit-border-radius: 2%;
+	-moz-border-radius: 2%;
+	border-radius: 2%;
+	overflow: hidden;
+	box-shadow: 0 2.8px 2.2px rgba(67, 40, 93, 0.034),
+		0 6.7px 5.3px rgba(67, 40, 93, 0.048),
+		0 12.5px 10px rgba(67, 40, 93, 0.06),
+		0 22.3px 17.9px rgba(67, 40, 93, 0.072),
+		0 41.8px 33.4px rgba(067, 40, 93, 0.086),
+		0 100px 80px rgba(67, 40, 93, 0.12);
 }
 
-.article-about-me__image img { width: 100%; }
+.article-about-me__image img {
+	width: 100%;
+}
 
 .article-about-me__title {
 	font-size: 4rem;
@@ -46,16 +55,21 @@ body { background-color: #F5EDE9; }
 	text-align: center;
 	margin-top: 4em;
 }
-.footer-contact__text { font-size: 2rem; }
+
+.footer-contact__text {
+	font-size: 2rem;
+}
 
 .footer-contact__link {
 	text-decoration: none;
 	color: #CB8787;
 	transition: 0.2s linear;
 }
+
 .footer-contact__link:hover {
 	color: #683A3F;
 }
+
 .footer-contact__icon {
 	font-size: 48px;
 	padding: 0 0.4em;
