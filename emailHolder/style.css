@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.title-container {
+	padding: 0 0.4em;
+	margin: 0.3em 0;
+}
+
+.tag {
+	background-color: red;
+	padding: 0.15em 0.7em;
+	border-radius: 0.4em;
+	margin-bottom: 0.3em;
+}
+
+.social-media {
+	background-color: salmon;
+	color: #333:
+}
+
+.work {
+	background-color: rgb(72, 72, 198);
+	color:white;
+}
+
+.friends {
+	background-color: green;
+}
+
+.family{
+	background-color: ;
+}
+
+.intrests {
+	background-color: rgb(255, 167, 25);
+	color: #333;
+}
+
+
+.tag-container{
+	width: 50%;
+	margin: 0.5em 0;
+	padding: 0 0.4em;
+}
+
+.tag-holder {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.mail-content-container {
+
+}
+
+.btn {
+	
+}
